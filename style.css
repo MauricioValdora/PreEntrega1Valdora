@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 250px auto;
+    background-color: rgb(89, 103, 103);
+    height: 360px;
+    width: 420px;
+    border-radius: 50%;
+
+}
+
+.container h1 {
+    margin: auto;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container:hover {
+    background-color: rgb(54, 71, 71);
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 15px;
+}
