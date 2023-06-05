@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     background-color: blanchedalmond;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
 }
 
 .header {
@@ -10,28 +13,11 @@
     padding: 5px;
 }
 
-.header h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 .header input {
     width: 150px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     cursor: pointer;
 }
-
-.user {
-    width: 1000px;
-    height: 100px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
-}
-
 
 /* -------------------------------- */
 
@@ -62,9 +48,8 @@
     padding-bottom: 20px;
   }
   
-  button {
+ .popup-contenido button {
     width: 100px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     cursor: pointer;
     border-radius: 10px;
@@ -72,23 +57,37 @@
     margin: 10px;
 
 }
-
   
-  form {
+.popup-form {
     margin-bottom: 10px;
     background-color: white;
     
 
   }
-  form label {
+ .popup-form label {
     background-color: white;
     
   }
-  form input{
+  .popup-form input{
     display: block;
     width: 250px;
     height: 20px;
     margin: 0 auto;
 
   }
-  
+  .dashBoard{
+    margin: 10px;
+  }
+
+  .dashBoard h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .login{
+    margin: 10px;
+  }
+  .login h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+  }

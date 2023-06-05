@@ -15,7 +15,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
     // Comprobar si los datos ingresados coinciden con los almacenados
     if (email === storedEmail && password === storedPassword) {
       // Redirigir al usuario a la página de dashboard después de iniciar sesión exitosamente
-      window.location.href = "dashboard.html";
+      window.location.href = "../dashboard/dashboard.html";
     } else {
       // Mostrar el mensaje de error
       errorElement.textContent = "El email o la contraseña son incorrectos.";

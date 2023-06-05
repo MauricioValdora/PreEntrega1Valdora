@@ -88,4 +88,3 @@ let email = localStorage.getItem('email')
 const usuario = new Usuario(nombre, apellido, contraseña, email)
 usuarios.unshift(usuario)
 
-
