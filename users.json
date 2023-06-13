@@ -1,0 +1,35 @@
+[
+    {
+        "nombre": "Ariadna",
+        "email": "mauricio_valdora@gmail.com",
+        "apellido": "rindmond",
+        "numeroDeCuenta": 12345,
+        "contraseña": 126783,
+        "dinero": 12341234
+    },
+    {
+        "nombre": "marisol",
+        "email": "marisol_valdora@gmail.com",
+        "apellido": "maidana",
+        "numeroDeCuenta": 456,
+        "contraseña": 1243,
+        "dinero": 123411234234
+    },
+    {
+        "nombre": "penelope",
+        "email": "penelope_valdora@gmail.com",
+        "apellido": "estiba",
+        "numeroDeCuenta": 1357,
+        "contraseña": 123,
+        "dinero": 12341234
+    },
+    {
+        "nombre": "antonella",
+        "email": "antonella_valdora@gmail.com",
+        "apellido": "legizamond",
+        "numeroDeCuenta": 368,
+        "contraseña": 12342134,
+        "dinero": 12341234
+    }
+
+]

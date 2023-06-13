@@ -1,36 +1,4 @@
-//usuarios existentes
 
-const usuarios = [
-    {
-        'nombre': 'Ariadna',
-        'email': 'mauricio_valdora@gmail.com',
-        'apellido': 'rindmond',
-        'contraseña': 123,
-        'dinero': 12341234
-    },
-    {
-        'nombre': 'marisol',
-        'email': 'marisol_valdora@gmail.com',
-        'apellido': 'maidana',
-        'contraseña': 1243,
-        'dinero': 123411234234
-    },
-    {
-        'nombre': 'penelope',
-        'email': 'penelope_valdora@gmail.com',
-        'apellido': 'estiba',
-        'contraseña': 123,
-        'dinero': 12341234
-    },
-    {
-        'nombre': 'antonella',
-        'email': 'antonella_valdora@gmail.com',
-        'apellido': 'legizamond',
-        'contraseña': 12342134,
-        'dinero': 12341234
-    }
-
-]
 
 class Usuario {
     constructor(nombre, apellido, contraseña, email) {
@@ -40,7 +8,6 @@ class Usuario {
         this.email = email
     }
 }
-
 
 document.getElementById("boton").addEventListener("click", function () {
     document.getElementById("popup").style.display = "flex";
@@ -86,5 +53,6 @@ let apellido = localStorage.getItem("apellido")
 let contraseña = localStorage.getItem("password")
 let email = localStorage.getItem('email')
 const usuario = new Usuario(nombre, apellido, contraseña, email)
-usuarios.unshift(usuario)
+
+
 
