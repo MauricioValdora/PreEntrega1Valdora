@@ -210,7 +210,7 @@ const myChart = new Chart(ctx, {
   data: {
     labels: ['Depositos', 'Extracciones', 'Transferencias'], // Etiquetas para el eje X
     datasets: [{
-      label: 'Consumo', // Etiqueta para la serie de datos
+      label: 'Actividad', // Etiqueta para la serie de datos
       data: [sumaDepositos, sumaExtracciones, sumaTransferencias], // Valores para la serie de datos
       backgroundColor: 'rgba(75, 192, 192, 0.2)', // Color de fondo de las barras
       borderColor: 'rgba(75, 192, 192, 1)', // Color del borde de las barras
